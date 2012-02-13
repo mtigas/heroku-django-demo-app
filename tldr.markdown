@@ -23,7 +23,7 @@ The **tldr** of [this how-to blogpost][howto].
     echo "export PROJECT_NAME=\"$PROJECT_NAME\"" >> bin/activate
     echo "export PYTHON_APP_NAME=\"$PYTHON_APP_NAME\"" >> bin/activate
     echo "export PIP_RESPECT_VIRTUALENV=true" >> bin/activate
-    echo "export PYTHONPATH=\"\$VIRTUAL_ENV\/repo/src"" >> bin/activate
+    echo "export PYTHONPATH=\"\$VIRTUAL_ENV/repo/src\"" >> bin/activate
     echo "unset DJANGO_SETTINGS_MODULE" >> bin/activate
 
     # Activate the environment.
