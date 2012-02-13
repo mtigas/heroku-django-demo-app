@@ -143,6 +143,9 @@ Open urls.py and uncomment the lines for the admin.
     git add .
     git commit -m "enable admin and boto-backed storage"
 
+    # deploy
+    git push heroku master
+
     heroku run "python src/$PYTHON_APP_NAME/manage.py collectstatic --noinput"
 
     heroku run "python src/$PYTHON_APP_NAME/manage.py syncdb --noinput"
@@ -166,6 +169,12 @@ Add to settings.py:
         }
     }
 
+Then deploy
+
+    git add .
+    git commit -m "cache"
+    git push heroku master
+
 ### Adding (and enforcing) SSL
 
     heroku addons:add ssl:piggyback
@@ -175,3 +184,8 @@ in settings.py
 
 [ssl_middleware]: https://gist.github.com/1812422
 
+Then deploy
+
+    git add .
+    git commit -m "cache"
+    git push heroku master
