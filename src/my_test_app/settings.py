@@ -101,6 +101,7 @@ TEMPLATE_LOADERS = (
 
 MIDDLEWARE_CLASSES = (
     'my_test_app.middleware.ForceSSLMiddleware',
+    'django.middleware.http.ConditionalGetMiddleware',
     #'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.gzip.GZipMiddleware',
     'django.middleware.common.CommonMiddleware',
