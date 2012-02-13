@@ -17,7 +17,7 @@ An example of this demo (more or less) is running at
 [https://tigas-test-app.herokuapp.com/](https://tigas-test-app.herokuapp.com/)
 (with the adminsite disabled).
 
-[howto]: http://mike.tig.as/blog/2012/02/12/deploying-django-on-heroku/
+[howto]: http://mike.tig.as/blog/2012/02/13/deploying-django-on-heroku/
 [heroku_django]: http://devcenter.heroku.com/articles/django
 [gunicorn]: http://gunicorn.org/
 [gunicorn_design]: http://gunicorn.org/design.html
