@@ -1,6 +1,18 @@
-The **tldr** of [this how-to blogpost][howto].
+The **tldr** of **[this how-to blogpost][howto]**.
 
 [howto]: http://mike.tig.as/blog/2012/02/12/deploying-django-on-heroku/
+
+You should be running on Mac OS X and have the following packages:
+
+* git
+* python 2.7.x
+* pip
+* virtualenv
+* heroku
+* foreman
+
+If not, read the ***Preliminaries*** section of that blogpost before continuing.
+
 
 ### Bootstrapping a Django-on-Heroku app
 
